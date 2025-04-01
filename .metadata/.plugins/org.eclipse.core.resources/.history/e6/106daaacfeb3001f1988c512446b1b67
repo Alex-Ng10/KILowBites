@@ -1,0 +1,116 @@
+
+ABOUT = Acerca de
+ACTION = Acción:
+ADD = Añadir
+ADD_INGREDIENT = Añadir un ingrediente
+ADD_RECIPE = Añadir una receta
+ALREADY_IN_SYSTEM = Ya en el sistema
+AISLE = Pasillo:
+AMOUNT = Cantidad:
+
+CALCULATE = Calcular
+CALORIES = Calorías:
+CALORIES_LOWER_CASE = calorías
+CALORIE_CALCULATOR = Calculadora de calorías
+CHANGE_UNIT = Cambiar unidad
+CHANGE_UNIT_TYPE_TO_IMPERIAL = Cambiar tipo de unidad a Imperial
+CHANGE_UNIT_TYPE_TO_METRIC = Cambiar tipo de unidad a Métrico
+CHOOSE_INGREDIENT = Elegir ingrediente
+CHOOSE_UNIT = Elegir unidad
+CLOSE = Cerrar
+CONFIGURE = Configurar
+CONVERTING_FROM = Convertir de
+
+CURRENT_UNIT_TYPE_IMPERIAL = Tipo de unidad actual: Imperial
+CURRENT_UNIT_TYPE_METRIC = Tipo de unidad actual: Métrico
+
+DELETE = Eliminar
+DETAILS = Detalles:
+
+EDIT = Editar
+EXIT = Salir
+
+FILE = Archivo
+FROM_UNITS = Desde unidades:
+
+IMPERIAL = Imperial
+INDEX = Índice:
+INDIVIDUAL = Individual
+INGREDIENT = Ingrediente:
+INGREDIENTS = Ingredientes
+INGREDIENT_ADD = Añadir un ingrediente
+INGREDIENT_DELETE = Eliminar un ingrediente
+INGREDIENT_NAME = Nombre del ingrediente:
+INVALID_INPUT = Entrada no válida
+IN_THE = En el
+
+KILOWBITES_CALORIES_CALCULATOR = Calculadora de calorías KILowBites
+KILOWBITES_MAIN_WINDOW = Ventana principal de KILowBites
+KILOWBITES_MEAL_EDITOR = Editor de comidas KILowBites
+KILOWBITES_RECIPE_EDITOR = Editor de recetas KILowBites
+KILOWBITES_RECIPE_VIEWER = Visor de recetas KILowBites
+KILOWBITES_UNIT_CONVERTER = Convertidor de unidades KILowBites
+KILOWBITES_SHOPPING_LIST_VIEWER = Visor de listas de la compra KILowBites
+
+MASS = Masa
+MEAL = Comida
+MEALS = Comidas
+MEAL_SEARCH = Búsqueda de comidas
+METRIC = Métrico
+
+NAME = Nombre:
+NEW = Nuevo
+NO_MEALS_FOUND = No se encontraron comidas.
+NO_RECIPES_FOUND = No se encontraron recetas.
+NUMBER_OF_PEOPLE = Número de personas:
+
+OF = de
+OMITTED_INGREDIENTS = Ingredientes omitidos:
+ON = En:
+OPEN = Abrir
+OPEN_RECIPE_MEAL = Abrir receta/comida
+
+PREFERENCES = Preferencias
+PRICE = Precio:
+PRINT = Imprimir
+PROCESS = Proceso
+
+QUANTITY = Cantidad:
+
+RECIPES = Recetas
+RECIPE = Receta
+RECIPE_ADD = Añadir una receta
+RECIPE_DELETE = Eliminar la receta
+RECIPE_SEARCH = Búsqueda de recetas
+RESET = Restablecer
+
+SAVE = Guardar
+SAVE_AS = Guardar como
+SAME_UNIT = Mismo tipo de unidad
+SEARCH_FOR_INGREDIENT = Buscar ingrediente:
+SERVES = Rinde:
+SHOPPING_LIST = Lista de la compra
+SHORTCUTS = Atajos
+STEP = Paso
+STEP_ADD = Añadir un paso
+STEP_DELETE = Eliminar un paso
+SUCCESSFULLY_ADDED = Añadido con éxito
+
+THE = El
+THE_CONTENTS_OF_THE = El contenido de la
+TOOLS = Herramientas
+TO = a
+TO_AMOUNT = A cantidad:
+TO_UNITS = A unidades:
+
+UNITS = Unidades:
+UNITS_CONVERTER = Convertidor de unidades
+UNIT_TYPE_SELECTOR = Selector de tipo de unidad
+USER_GUIDE = Guía del usuario
+
+UTENSIL = Utensilio:
+UTENSIL_ADD = Añadir un utensilio
+UTENSIL_DELETE = Eliminar un utensilio
+
+VIEW = Ver
+VOLUME = Volumen

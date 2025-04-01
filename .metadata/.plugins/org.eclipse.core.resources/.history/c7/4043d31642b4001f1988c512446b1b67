@@ -1,0 +1,117 @@
+
+ABOUT = About
+ACTION = Action:
+ADD = Add
+ADD_INGREDIENT = Add Ingredient
+ADD_RECIPE = Add Recipe
+ALREADY_IN_SYSTEM = Already in system!
+AISLE = Aisle:
+AMOUNT = Amount:
+
+CALCULATE = Calculate
+CALORIES = Calories:
+CALORIES_LOWER_CASE = calories
+CALORIE_CALCULATOR = Calorie Calculator
+CHANGE_UNIT = Change Unit
+CHANGE_UNIT_TYPE_TO_IMPERIAL = Change Unit types to Imperial
+CHANGE_UNIT_TYPE_TO_METRIC = Change Unit types to Metric
+CHOOSE_INGREDIENT = Choose Ingredient
+CHOOSE_UNIT = Choose Unit
+CLOSE = Close
+CONFIGURE = Configure
+CONVERTING_FROM = converting from
+
+CURRENT_UNIT_TYPE_IMPERIAL = Current Unit Type: Imperial
+CURRENT_UNIT_TYPE_METRIC = Current Unit Type: Metric
+
+DELETE = Delete
+DETAILS = Details:
+
+EDIT = Edit
+EXIT = Exit
+
+FILE = File
+FROM_UNITS = From Units:
+
+IMPERIAL = Imperial
+INDEX = Index:
+INDIVIDUAL = Individual
+INGREDIENT = Ingredient:
+INGREDIENTS = Ingredients
+INGREDIENT_ADD = Ingredient Add
+INGREDIENT_DELETE = Ingredient Delete
+INGREDIENT_NAME = Ingredient name:
+INVALID_INPUT = Invalid input
+IN_THE = In the
+
+KILOWBITES_CALORIES_CALCULATOR = KILowBites Calorie Calculator
+KILOWBITES_MAIN_WINDOW = KILowBites Main Window
+KILOWBITES_MEAL_EDITOR = KILowBites Meal Editor
+KILOWBITES_RECIPE_EDITOR = KILowBites Recipe Editor
+KILOWBITES_RECIPE_VIEWER = KILowBites Recipe Viewer
+KILOWBITES_UNIT_CONVERTER = KILowBites Unit Converter
+KILOWBITES_SHOPPING_LIST_VIEWER = KILowBites Shopping List Viewer:
+
+MASS = Mass
+MEAL = Meal
+MEALS = Meals
+MEAL_SEARCH = Meal Search
+METRIC = Metric
+
+NAME = Name:
+NEW = New
+NO_MEALS_FOUND = No meals found.
+NO_RECIPES_FOUND = No recipes found.
+NUMBER_OF_PEOPLE = Number of People:
+
+OF = of
+OMITTED_INGREDIENTS = Omitted ingredients:
+ON = On:
+OPEN = Open
+OPEN_RECIPE_MEAL = Open Recipe/Meal
+
+PREFERENCES = Preferences
+PRICE = Price:
+PRINT = Print
+PROCESS = Process
+
+QUANTITY = Quantity:
+
+#RECIPES = Recipes
+RECIPE = Recipe
+RECIPE_ADD = Recipe Add
+RECIPE_DELETE = Recipe Delete
+RECIPE_SEARCH = Recipe Search
+RESET = Reset
+
+SAVE = Save
+SAVE_AS = Save As
+SAME_UNIT = Same unit
+SEARCH = Search
+SEARCH_FOR_INGREDIENT = Search for Ingredient:
+SERVES = Serves:
+SHOPPING_LIST = Shopping List
+SHORTCUTS = Shortcuts
+STEP = Step
+STEP_ADD = Step Add
+STEP_DELETE = Step Delete
+SUCCESSFULLY_ADDED = Successfully added
+
+THE = The
+THE_CONTENTS_OF_THE = The contents of the
+TOOLS = Tools
+TO = to
+TO_AMOUNT = To Amount:
+TO_UNITS = To Units:
+
+UNITS = Units:
+UNITS_CONVERTER = Units Converter
+UNIT_TYPE_SELECTOR = Unit Type Selector
+USER_GUIDE = User Guide
+
+UTENSIL = Utensil:
+UTENSIL_ADD = Utensil Add
+UTENSIL_DELETE = Utensil Delete
+
+VIEW = View
+VOLUME = Volume
