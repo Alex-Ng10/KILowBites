@@ -1,18 +1,18 @@
 # KILowBites
 
-A full-featured recipe and meal management desktop application built in Java. KILowBites lets cooks create structured recipes, compose multi-recipe meals, and drive the full cooking workflow — from ingredient shopping to calorie tracking — entirely offline.
+A full-featured recipe and meal management desktop application built in Java. KILowBites lets cooks create structured recipes, compose multi-recipe meals, and drive the full cooking workflow - from ingredient shopping to calorie tracking - entirely offline.
 
 ---
 
 ## Key Features
 
-- **Recipe Editor** — Create and edit recipes with typed ingredients (mass or volume), required utensils, and ordered cooking steps; ingredients and utensils are auto-sorted alphabetically for consistency.
-- **Meal Planner** — Compose meals from saved recipes; duplicate recipes in a single meal are prevented at the model layer.
-- **Recipe Scaling** — Adjust serving count and all ingredient quantities scale proportionally via a linear factor calculation.
-- **Calorie Calculator** — Look up any ingredient in the built-in 100+ food nutritional database and compute calories for any quantity and unit.
-- **Unit Converter** — Convert between 13 measurement units across two categories: 4 mass units (Gram, Dram, Ounce, Pound) and 9 volume units (mL through Gallon), including cross-type mass↔volume conversion using per-food density data.
-- **Shopping List Generator** — Aggregates all ingredients from every recipe in a meal, maps each item to its supermarket aisle and price from embedded data files, and produces a consolidated list.
-- **Multilingual UI** — UI strings fully externalized via Java `ResourceBundle`; ships with English, French, and Spanish locales.
+- **Recipe Editor** - Create and edit recipes with typed ingredients (mass or volume), required utensils, and ordered cooking steps; ingredients and utensils are auto-sorted alphabetically for consistency.
+- **Meal Planner** - Compose meals from saved recipes; duplicate recipes in a single meal are prevented at the model layer.
+- **Recipe Scaling** - Adjust serving count and all ingredient quantities scale proportionally via a linear factor calculation.
+- **Calorie Calculator** - Look up any ingredient in the built-in 100+ food nutritional database and compute calories for any quantity and unit.
+- **Unit Converter** - Convert between 13 measurement units across two categories: 4 mass units (Gram, Dram, Ounce, Pound) and 9 volume units (mL through Gallon), including cross-type mass↔volume conversion using per-food density data.
+- **Shopping List Generator** - Aggregates all ingredients from every recipe in a meal, maps each item to its supermarket aisle and price from embedded data files, and produces a consolidated list.
+- **Multilingual UI** - UI strings fully externalized via Java `ResourceBundle`; ships with English, French, and Spanish locales.
 
 ---
 
@@ -20,11 +20,11 @@ A full-featured recipe and meal management desktop application built in Java. KI
 
 | Technology | Role |
 |---|---|
-| **Java (Swing)** | Cross-platform desktop GUI — no external UI toolkit dependency |
+| **Java (Swing)** | Cross-platform desktop GUI - no external UI toolkit dependency |
 | **Java Serialization** | Persist recipes (`.rcp`) and meals (`.mel`) as typed object graphs |
 | **JUnit 5 (Jupiter)** | Unit and integration testing for domain model, converters, and file I/O |
 | **Java ResourceBundle** | Externalizes all UI strings for i18n without a separate framework |
-| **Text data files (`.dat` / `.ntr`)** | Lightweight store for nutritional data, aisle mappings, and prices — no database required |
+| **Text data files (`.dat` / `.ntr`)** | Lightweight store for nutritional data, aisle mappings, and prices - no database required |
 
 ---
 
@@ -97,26 +97,6 @@ The following files must remain in the **project root** at runtime (they are alr
 
 ---
 
-## Screenshots
-
-> _Replace the placeholders below with actual screenshots after launch._
-
-| Recipe Editor | Meal Planner |
-|---|---|
-| ![Recipe Editor](docs/screenshots/recipe_editor.png) | ![Meal Planner](docs/screenshots/meal_planner.png) |
-
-| Shopping List | Unit Converter |
-|---|---|
-| ![Shopping List](docs/screenshots/shopping_list.png) | ![Unit Converter](docs/screenshots/unit_converter.png) |
-
----
-
-## Key Engineering Decision
-
-Ingredient quantities and units are stored as first-class typed values — never as plain strings — enabling safe arithmetic at every layer. Recipe scaling, calorie calculation, and shopping list aggregation all operate on numeric amounts with explicit `UnitType` (mass vs. volume) metadata. When a recipe is added to a meal, the shopping list controller can detect unit mismatches and apply the `MassToVolume` converter (using per-food density) before summing quantities. This design eliminates a whole class of silent unit-mismatch bugs that plague simpler string-based recipe stores.
-
----
-
 ## Testing
 
 Tests live in `src/testing/` and use JUnit 5:
@@ -132,10 +112,3 @@ Full manual test script: [Google Docs Testing Script](https://docs.google.com/do
 
 ---
 
-## Contact
-
-**Team f24team3d**
-
-- **GitHub**: [MichaelAho1](https://github.com/MichaelAho1)
-- **LinkedIn**: _Add your LinkedIn URL here_
-- **Portfolio**: _Add your portfolio URL here_
