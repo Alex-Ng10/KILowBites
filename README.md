@@ -60,7 +60,7 @@ The **Observer pattern** (`DocumentStateSubject` / `DocumentStateObserver`) prop
 ### Install
 
 ```bash
-git clone https://github.com/MichaelAho1/KLowBites1.git
+git clone https://github.com/Alex-Ng10/KILowBites.git
 cd KLowBites1   # repository directory; the application class is app.KILowBites
 ```
 
